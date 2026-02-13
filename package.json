@@ -1,0 +1,18 @@
+{
+  "name": "touchwallserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "detect": "node detect-devices.js",
+    "listen": "node listen-keyboard.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-global-key-listener": "^0.3.0",
+    "node-hid": "^3.3.0"
+  }
+}
